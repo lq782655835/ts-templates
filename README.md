@@ -44,3 +44,13 @@ What's included:
 * NPM scripts for common operations,
 * a simple example of TypeScript code and unit test,
 * .editorconfig for consistent file format.
+
+> best start for tools
+
+## express ts
+
+A starter template for TypeScript and Node with a detailed README describing how to use the two together.
+
+node + ts + express && full stack
+
+https://github.com/microsoft/TypeScript-Node-Starter
