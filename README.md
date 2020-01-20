@@ -54,3 +54,37 @@ A starter template for TypeScript and Node with a detailed README describing how
 node + ts + express && full stack
 
 https://github.com/microsoft/TypeScript-Node-Starter
+
+## monorepo by lerna
+
+https://github.com/Quramy/lerna-yarn-workspaces-example
+
+How to build TypeScript mono-repo project with yarn and lerna
+
+```
+.
+├── README.md
+├── lerna.json
+├── package.json
+├── packages
+│   ├── x-cli
+│   │   ├── lib
+│   │   │   ├── main.d.ts
+│   │   │   ├── main.js
+│   │   │   └── main.js.map
+│   │   ├── package.json
+│   │   ├── src
+│   │   │   └── main.ts
+│   │   └── tsconfig.json
+│   └── x-core
+│       ├── lib
+│       │   ├── index.d.ts
+│       │   ├── index.js
+│       │   └── index.js.map
+│       ├── package.json
+│       ├── src
+│       │   └── index.ts
+│       └── tsconfig.json
+├── tsconfig.json
+└── yarn.lock
+```
