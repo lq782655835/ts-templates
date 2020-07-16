@@ -1,6 +1,6 @@
-# TS Templates
+# TS 模板
 
-## koa ts 
+## 1. koa + ts
 
 https://github.com/unix/koa-ts
 
@@ -28,7 +28,7 @@ https://github.com/unix/koa-ts
 
 Minimalistic project template to jump start a Node.js back-end application in TypeScript. TSLint, Jest and type definitions included.
 
-## node ts
+## 2. node + ts
 
 https://github.com/jsynowiec/node-typescript-boilerplate
 
@@ -47,7 +47,7 @@ What's included:
 
 > best start for tools
 
-## express ts
+## 3. express + ts
 
 A starter template for TypeScript and Node with a detailed README describing how to use the two together.
 
@@ -55,7 +55,7 @@ node + ts + express && full stack
 
 https://github.com/microsoft/TypeScript-Node-Starter
 
-## monorepo by lerna
+## 4. monorepo by lerna
 
 https://github.com/Quramy/lerna-yarn-workspaces-example
 
@@ -88,3 +88,37 @@ How to build TypeScript mono-repo project with yarn and lerna
 ├── tsconfig.json
 └── yarn.lock
 ```
+
+# node + sql 模板
+
+* https://github.com/LFB/nodejs-koa-blog
+    * api -> service -> dao -> model
+    * jwt：（登录成功：jwt.sign，生成token）（每次带入token校验：obj = jwt.verify(token, secretKey)）
+    * validator校验基础帮助库
+* https://github.com/wclimb/Koa2-blog/
+    * 使用createPool直接传入sql语法执行
+    * 权限设计session。 教程：https://www.jianshu.com/p/f3df4ffe3301
+
+详细案例实践：https://github.com/lq782655835/koa-mysql-best-experiment
+
+# 后台管理系统模板
+
+github 搜索关键词： antdv admin
+
+## ElementUI组件库
+
+### 1. https://github.com/lin-xin/vue-manage-system/
+
+基于vue + element的后台管理系统解决方案
+
+### 2. https://github.com/chuzhixin/vue-admin-beautiful
+
+## Antd Vue组件库
+
+### 1. https://github.com/vueComponent/ant-design-vue-pro
+
+官方 antdv-pro
+
+### 2. https://github.com/iczer/vue-antd-admin
+
+简版antdv-pro，但代码解构罗列更好
